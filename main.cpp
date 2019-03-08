@@ -1,18 +1,29 @@
 #include <stdio.h>
 #include "sum.h"
 
-main()
+int main()
 {
-	printf("Selcet two number : ");
-	scanf("%d %d", &a &b);
-
-	int result = sum(int a, int b);
 	
-	printf("result = %d\n", result);	
+	int a;
+	int b;
 
-	return sum;
+	printf("Select one number : ");
+	scanf("%d", &a);
+	printf("Select other number : ");
+	scanf("%d", &b);
+
+	int res = sum(a,b);
+
+	printf("result = %d\n", res);
+
+
+	return 0;
 
 }
+
+
+
+
 
 
 
