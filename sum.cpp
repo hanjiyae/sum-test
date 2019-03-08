@@ -1,15 +1,18 @@
 #include "sum.h"
 
-int sum (int a, int b)
+int sum(int a, int b)
 {
+	
+	int res = 0;
 	int i;
-	int sum=0;
 
-	for(i=a; i<=b; i++)
+	for (i=a; i<=b; i++)
 	{
-		sum += i;
+		res += i;
 	}
-	return sum;
+
+	return res;
+
 }
 
 
